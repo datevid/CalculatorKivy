@@ -71,6 +71,7 @@ class MyLayout(Widget):
         answer = eval(prior)
         self.ids.calc_input.text=str(answer)
         """
+        #tomar en cuenta
         answer = 0.0;
         if "+" in prior:
             numList=prior.split("+")
